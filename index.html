@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hashmap impementation.</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>
+      Polish Lotto Ekstraklasa competitors
+    </h1>
+    <div class="spinner">
+      <div class="clock__face"></div>
+      <div class="clock__arm"></div>
+    </div>
+    <div class="actions">
+      <div class="total">
+        <p class="total-display-text">Total: <span class="counter">0</span></p>
+        <button class="total-clear">Clear all</button>
+      </div>
+      <div class="search__wrapper">
+        <input type="text" class="search__input" name="key" placeholder="Type a key" />
+        <p class="search__tip">Enter a key to find a team.</p>
+      </div>
+      <div class="section-create">
+        <p class="section-create__text"><b>Click here to add new item.</b></p>
+        <input type="text" name="new-name" class="hidden section-create__action new-name"
+          placeholder="Name of the club" />
+        <input type="text" name="new-key" class="hidden section-create__action new-key"
+          placeholder="Unique key" />
+        <button class='hidden section-create__action section-create__btn'>Add!</button>
+      </div>
+    </div>
+  </div>
+
+  <script src='./script.js'></script>
+</body>
+
+</html>
