@@ -1,7 +1,7 @@
 # Hashmap implementation
 
 A simple static website for hashmap implementation practice in VanillaJS.
-Try it out [here]()
+Try it out [here](https://bartewicz.github.io/hashmap-exercise/)
 
 ## How does it work
 
@@ -42,21 +42,23 @@ And methods:
 
 ## Predefault data
 
->const data = [
->  { key: 'l-gdansk', value: 'Lechia Gdańsk' },
->  { key: 'l-warszawa', value: 'Legia Warszawa' },
->  { key: 'p-gliwice', value: 'Piast Gliwice' },
->  { key: 'j-bialystok', value: 'Jagiellonia Białystok' },
->  { key: 'w-krakow', value: 'Wisła Kraków' },
->  { key: 'cracovia', value: 'KS Cracovia' },
->  { key: 'k-kielce', value: 'Korona Kielce' },
->  { key: 'l-poznan', value: 'Lech Poznań' },
->  { key: 'p-szczecin', value: 'Pogoń Szczecin' },
->  { key: 'a-gdynia', value: 'Arka Gdynia' },
->  { key: 'z-lubin', value: 'Zagłębie Lubin' },
->  { key: 's-wroclaw', value: 'Śląsk Wrocław' },
->  { key: 'w-plock', value: 'Wisła Płock' },
->  { key: 'm-legnica', value: 'Miedź Legnica' },
->  { key: 'g-zabrze', value: 'Górnik Zabrze' },
->  { key: 'z-sosnowiec', value: 'Zagłębie Sosnowiec' }
->]
+```js
+const data = [
+  { key: 'l-gdansk', value: 'Lechia Gdańsk' },
+  { key: 'l-warszawa', value: 'Legia Warszawa' },
+  { key: 'p-gliwice', value: 'Piast Gliwice' },
+  { key: 'j-bialystok', value: 'Jagiellonia Białystok' },
+  { key: 'w-krakow', value: 'Wisła Kraków' },
+  { key: 'cracovia', value: 'KS Cracovia' },
+  { key: 'k-kielce', value: 'Korona Kielce' },
+  { key: 'l-poznan', value: 'Lech Poznań' },
+  { key: 'p-szczecin', value: 'Pogoń Szczecin' },
+  { key: 'a-gdynia', value: 'Arka Gdynia' },
+  { key: 'z-lubin', value: 'Zagłębie Lubin' },
+  { key: 's-wroclaw', value: 'Śląsk Wrocław' },
+  { key: 'w-plock', value: 'Wisła Płock' },
+  { key: 'm-legnica', value: 'Miedź Legnica' },
+  { key: 'g-zabrze', value: 'Górnik Zabrze' },
+  { key: 'z-sosnowiec', value: 'Zagłębie Sosnowiec' }
+]
+```
