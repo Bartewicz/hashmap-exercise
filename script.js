@@ -28,7 +28,7 @@
     }
     hashKey(key) {
       key.split('')
-      .reduce((a, b) => a + b.charCodeAt(), 0) % this.size
+        .reduce((a, b) => a + b.charCodeAt(), 0) % this.size
     }
     get(key) {
       const index = this.hashKey(key)
@@ -166,6 +166,10 @@
 
     searchInput.oninput = function () {
       const key = this.value
+      const removeTeamBtn = document.querySelector('.remove__team')
+      if (removeTeamBtn) {
+        removeTeamBtn.parentNode.removeChild(removeTeamBtn)
+      }
       handleSearchRequest(key)
     }
     spinner.style.opacity = 0
